@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var w = window.innerWidth
+|| document.documentElement.clientwidth
+|| document.body.clientwidth;
+
+var h = window.innerHeight
+|| document.documentElement.clientwidth
+|| document.body.clientHeight;
+
+var x = document.getElementsById("demo");
+x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
+</script>
+
+</body>
+</html>
